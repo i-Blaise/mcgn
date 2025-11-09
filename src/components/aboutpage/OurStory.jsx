@@ -7,13 +7,13 @@ export default function OurStory() {
             <img src={OurStoryPattern} alt="" 
             className='relative top-0 left-0 pointer-events-none select-none h-[800px] w-auto'
             />
-            <section className='flex flex-col lg:flex-row mx-4 lg:mx-46 lg:px-0 my-20 md:px-0 gap-10 relative z-100 mt-[-560px] justify-center items-center border-1 border-blue-500'>
-                <div className='lg:w-1/2 md:w-full md:px-10 border-1 border-red-500'>
+            <section className='flex flex-col lg:flex-row mx-4 lg:mx-46 lg:px-0 my-20 md:px-0 gap-10 relative z-100 mt-[-560px] justify-center items-center'>
+                <div className='lg:w-1/2 md:w-full md:px-10'>
                     <img src={OurStoryImage} alt="Our Story Image of the group" 
                     className='lg:h-[36rem] w-fit object-cover' />
                 </div>
 
-                <div className="flex flex-col gap-4 justify-center items-start lg:w-1/2 md:w-full md:px-10 border-1 border-red-500">
+                <div className="flex flex-col gap-4 justify-center items-start lg:w-1/2 md:w-full md:px-10">
                     <div className='flex items-center gap-2'>
                         <h5 className='font-montserrat font-semibold text-[18px] text-[#252A34] mr-2'>
                             Our Story

@@ -5,7 +5,7 @@ import Logo4 from '../assets/images/logo4.png';
 
 export default function PartnerLogos() {
     return (
-        <section className='lg:mx-30 md:mx-12 my-20'>
+        <section className='lg:mx-30 md:mx-12 my-2'>
             <div className="flex justify-between items-center gap-8 w-full flex-wrap md:flex-nowrap">
                 <img src={Logo1} alt="Partner Logo 1" className="h-16 md:h-16 lg:h-18 xl:h-24 object-contain" />
                 <img src={Logo2} alt="Partner Logo 2" className="h-16 md:h-16 lg:h-18 xl:h-24 object-contain" />

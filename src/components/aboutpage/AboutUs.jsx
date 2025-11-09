@@ -22,10 +22,10 @@ export default function AboutUs() {
         transition: { duration: 1.0, ease: "easeOut", delay: 0.7 }
     };
     return ( 
-        <div className="w-full h-200">
+        <div className="w-full lg:h-200">
             
-        <section className="flex flex-col lg:flex-row mx-4 lg:mx-46 lg:px-0 my-20 md:px-0 gap-10 relative z-100 justify-center items-center">
-            <div className="flex flex-col gap-4 justify-center items-start lg:w-1/2 md:w-full md:px-10">
+        <section className="flex flex-col lg:flex-row mx-4 lg:mx-46 lg:px-0 my-20 md:px-0 gap-10 relative z-100 justify-center items-center ">
+            <div className="flex flex-col gap-4 justify-between items-start lg:w-1/2 md:w-full md:pr-0">
                 <div className='flex items-center gap-2'>
                     <h5 className='font-montserrat font-semibold text-[18px] text-[#252A34] mr-2 capitalize'>
                         Welcome to MCGN
@@ -44,7 +44,7 @@ export default function AboutUs() {
                 </div>
                 <div className="flex flex-col gap-6">
                     <motion.div {...fadeLeft1}>
-                        <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
+                        <div className="bg-[#FEF2DE] pl-4 pr-18 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
                             <div className="flex justify-center items-center gap-2">
                                 <GiBullseye className="text-3xl" />
                                 <h4 className="font-bold text-[20px]">Our mission</h4>
@@ -56,7 +56,7 @@ export default function AboutUs() {
                         </div>
                     </motion.div>
                     <motion.div {...fadeLeft2}>
-                        <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
+                        <div className="bg-[#FEF2DE] pl-4 pr-18 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
                             <div className="flex justify-center items-center gap-2">
                                 <FaRegLightbulb className="text-3xl" />
                                 <h4 className="font-bold text-[20px]">Our mission</h4>
@@ -67,7 +67,7 @@ export default function AboutUs() {
                         </div>
                     </motion.div>
                     <motion.div {...fadeLeft3}>
-                        <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
+                        <div className="bg-[#FEF2DE] pl-4 pr-18 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
                             <div className="flex justify-center items-center gap-2">
                                 <IoDiamond className="text-3xl" />
                                 <h4 className="font-bold text-[20px]">Our mission</h4>
@@ -80,7 +80,7 @@ export default function AboutUs() {
                     </motion.div>
                 </div>
             </div>
-            <div className="lg:w-1/2 md:w-full md:px-10">
+            <div className="lg:w-1/2 md:w-full md:pl-10">
                 <img src={WelcomeImage} alt="Images of MCGN Volunteers and boat donations" />
             </div>
         </section>

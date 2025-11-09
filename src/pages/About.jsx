@@ -25,7 +25,7 @@ export default function About() {
             <motion.div {...sectionFade}>
                 <AboutUs />
             </motion.div>
-            <motion.div {...sectionFade}>
+            <motion.div {...sectionFade} className='mt-[-26rem] lg:mt-[-6rem]'>
                 <OurTeam />
             </motion.div>
             <motion.div {...sectionFade}>

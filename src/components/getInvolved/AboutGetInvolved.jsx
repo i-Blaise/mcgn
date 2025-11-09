@@ -21,41 +21,19 @@ export default function AboutGetInvolved() {
                         Let Us Come Together To Make a Difference
                     </h2>
                     <p className="font-normal text-[#444444] text-[16px]">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                        nonumy tempor invidunt ut labore et dolore magna aliquyam
-                        erat, sed diam voluptua. At vero eos et accusam et justo.
+                        Every contribution you make helps us bring hope, education, healthcare, and sustainable support to families and communities across Ghana’s rural areas. 
+                        <br/>
+                        <br/>
+                        Your cheerful giving provides children with access to learning, ensures families have clean water and quality healthcare, and empowers individuals with the tools and opportunities to build better livelihoods.
                     </p>
                 </div>
-                <div className="flex flex-col gap-6">
-                    <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
-                        <div className="flex justify-center items-center gap-2">
-                            <GiBullseye className="text-3xl" />
-                            <h4 className="font-bold text-[20px]">Our mission</h4>
-                        </div>
-                        <p className="text-[#555555] text-[14px] font-normal">
-                            Empowering communities through health, education, 
-                            and livelihood programs for lasting change.
-                        </p>
-                    </div>
-                    <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
-                        <div className="flex justify-center items-center gap-2">
-                            <FaRegLightbulb className="text-3xl" />
-                            <h4 className="font-bold text-[20px]">Our mission</h4>
-                        </div>
-                        <p className="text-[#555555] text-[14px] font-normal">
-                            A Ghana where everyone can live with dignity, opportunity, and hope.
-                        </p>
-                    </div>
-                    <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
-                        <div className="flex justify-center items-center gap-2">
-                            <IoDiamond className="text-3xl" />
-                            <h4 className="font-bold text-[20px]">Our mission</h4>
-                        </div>
-                        <p className="text-[#555555] text-[14px] font-normal">
-                            Empowering communities through health, education, 
-                            and livelihood programs for lasting change.
-                        </p>
-                    </div>
+                <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
+                    <p className="text-[#555555] text-[14px] font-normal">
+                        Together, we are not just meeting immediate needs — 
+                        we’re nurturing long-term growth, restoring dignity, and 
+                        creating a cycle of kindness that continues to uplift lives 
+                        for generations to come.
+                    </p>
                 </div>
             </div>
             <div className="lg:w-1/2 md:w-full md:px-10">
@@ -63,7 +41,7 @@ export default function AboutGetInvolved() {
             </div>
         </section>
             <img src={WelcomeBg} alt="" 
-                className='relative lg:bottom-90 lg:left-165 md:bottom-90 md:left-0 bottom-90 left-0 pointer-events-none select-none lg:h-[500px] w-auto'
+                className='relative lg:bottom-120 lg:left-165 md:bottom-90 md:left-0 bottom-90 left-0 pointer-events-none select-none lg:h-[500px] w-auto'
             />
         </div>
     );
