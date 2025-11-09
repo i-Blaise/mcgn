@@ -11,10 +11,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Home() {
     const sectionFade = {
-        initial: { opacity: 0, y: 40, filter: "blur(8px)" },
+        initial: { opacity: 0, y: 60, filter: "blur(12px)" },
         whileInView: { opacity: 1, y: 0, filter: "blur(0px)" },
-        transition: { duration: 0.5, ease: "easeOut" },
-        viewport: { once: true, amount: 0.3 },
+        transition: { duration: 0.6, ease: "easeOut" },
+        viewport: { once: true, amount: 0.1 },
     };
 
     const fadeLeft = {

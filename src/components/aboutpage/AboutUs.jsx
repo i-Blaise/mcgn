@@ -3,8 +3,24 @@ import { GiBullseye } from "react-icons/gi";
 import { FaRegLightbulb } from "react-icons/fa6";
 import { IoDiamond } from "react-icons/io5";
 import WelcomeBg from "../../assets/images/welcome-bg.svg"
+import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function AboutUs() {
+    const fadeLeft1 = {
+        initial: { opacity: 0, x: -50 },
+        whileInView: { opacity: 1, x: 0 },
+        transition: { duration: 1.0, ease: "easeOut", delay: 0.3 }
+    };
+    const fadeLeft2 = {
+        initial: { opacity: 0, x: -50 },
+        whileInView: { opacity: 1, x: 0 },
+        transition: { duration: 1.0, ease: "easeOut", delay: 0.5 }
+    };
+    const fadeLeft3 = {
+        initial: { opacity: 0, x: -50 },
+        whileInView: { opacity: 1, x: 0 },
+        transition: { duration: 1.0, ease: "easeOut", delay: 0.7 }
+    };
     return ( 
         <div className="w-full h-200">
             
@@ -27,35 +43,41 @@ export default function AboutUs() {
                     </p>
                 </div>
                 <div className="flex flex-col gap-6">
-                    <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
-                        <div className="flex justify-center items-center gap-2">
-                            <GiBullseye className="text-3xl" />
-                            <h4 className="font-bold text-[20px]">Our mission</h4>
+                    <motion.div {...fadeLeft1}>
+                        <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
+                            <div className="flex justify-center items-center gap-2">
+                                <GiBullseye className="text-3xl" />
+                                <h4 className="font-bold text-[20px]">Our mission</h4>
+                            </div>
+                            <p className="text-[#555555] text-[14px] font-normal">
+                                Empowering communities through health, education, 
+                                and livelihood programs for lasting change.
+                            </p>
                         </div>
-                        <p className="text-[#555555] text-[14px] font-normal">
-                            Empowering communities through health, education, 
-                            and livelihood programs for lasting change.
-                        </p>
-                    </div>
-                    <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
-                        <div className="flex justify-center items-center gap-2">
-                            <FaRegLightbulb className="text-3xl" />
-                            <h4 className="font-bold text-[20px]">Our mission</h4>
+                    </motion.div>
+                    <motion.div {...fadeLeft2}>
+                        <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
+                            <div className="flex justify-center items-center gap-2">
+                                <FaRegLightbulb className="text-3xl" />
+                                <h4 className="font-bold text-[20px]">Our mission</h4>
+                            </div>
+                            <p className="text-[#555555] text-[14px] font-normal">
+                                A Ghana where everyone can live with dignity, opportunity, and hope.
+                            </p>
                         </div>
-                        <p className="text-[#555555] text-[14px] font-normal">
-                            A Ghana where everyone can live with dignity, opportunity, and hope.
-                        </p>
-                    </div>
-                    <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
-                        <div className="flex justify-center items-center gap-2">
-                            <IoDiamond className="text-3xl" />
-                            <h4 className="font-bold text-[20px]">Our mission</h4>
+                    </motion.div>
+                    <motion.div {...fadeLeft3}>
+                        <div className="bg-[#FEF2DE] px-4 text-[#BB7E1C] flex flex-col items-start gap-2 py-4">
+                            <div className="flex justify-center items-center gap-2">
+                                <IoDiamond className="text-3xl" />
+                                <h4 className="font-bold text-[20px]">Our mission</h4>
+                            </div>
+                            <p className="text-[#555555] text-[14px] font-normal">
+                                Empowering communities through health, education, 
+                                and livelihood programs for lasting change.
+                            </p>
                         </div>
-                        <p className="text-[#555555] text-[14px] font-normal">
-                            Empowering communities through health, education, 
-                            and livelihood programs for lasting change.
-                        </p>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
             <div className="lg:w-1/2 md:w-full md:px-10">
