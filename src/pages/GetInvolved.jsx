@@ -26,10 +26,10 @@ export default function GetInvolved() {
             <motion.div {...sectionFade}>
                 <AboutGetInvolved />
             </motion.div>
-            <motion.div {...sectionFade}>
+            <motion.div className="!z-10-- !relative--" {...sectionFade}>
                 <CTA />
             </motion.div>
-            <motion.div {...sectionFade}>
+            <motion.div className="!z-0-- !relative--" {...sectionFade}>
                 <ProjectsRow />
             </motion.div>
             <motion.div {...sectionFade}>

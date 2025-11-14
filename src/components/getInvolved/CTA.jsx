@@ -6,7 +6,7 @@ export default function CTA() {
     
     return (
         <>
-            <section className="flex flex-col mx-4 lg:mx-46 lg:px-0 my-20 md:px-0 gap-10 relative z-100 justify-between bg-[url('/images/cta.png')] bg-cover bg-no-repeat md:bg-center lg:bg-center h-[400px] items-start border-1 border-red-500">
+            <section className="flex flex-col mx-4 lg:mx-46 lg:px-0 my-20 md:px-0 gap-10 relative justify-between bg-[url('/images/cta.png')] bg-cover bg-no-repeat md:bg-center lg:bg-center h-[400px] items-start ">
                 <div className="bg-[#252a348c] p-6 mx-6 lg:ml-12 mt-14 lg:w-1/3 ">
                     <p className="text-[#d8d7d7] font-semibold">
                         Together, we are not just meeting immediate needs — 
