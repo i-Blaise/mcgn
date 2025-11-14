@@ -8,6 +8,7 @@ import Home from './pages/Home.jsx'
 import ScrollUpButton from './components/ScrollUpButton.jsx'
 import About from './pages/About.jsx'
 import GetInvolved from './pages/GetInvolved.jsx'
+import ContactUs from './pages/ContactUs.jsx'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/get-involved" element={<GetInvolved />} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
     </Router>
     </>

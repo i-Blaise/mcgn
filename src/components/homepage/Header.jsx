@@ -1,6 +1,8 @@
 import Navbar from "../Navbar"; 
+import DonateForm from "../Modals/DonateForm";import React, { useState } from "react";
 
 export default function Header() {
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <>
         <header className="bg-[url('/images/home-header.png')] bg-cover md:bg-center lg:bg-center bg-[82%_30%] h-screen flex flex-col items-center justify-center text-white mt-[-78px] top-0">
@@ -10,7 +12,8 @@ export default function Header() {
                 <p className="text-[18px] text-[#EEEEEE] font-montserrat font-normal lg:w-[80%]">Together, we’re building brighter futures in Ghana — one project, one smile, and one act of kindness at a time. Your support fuels life-changing programs in education, health, and sustainable community development.</p>
 
                 <div className="flex gap-6 mt-10">
-                    <button>
+                    <button
+                    onClick={() => setIsOpen(true)}>
                         <span className="bg-[#BB7E1C] px-8 py-4 text-white font-montserrat font-medium text-[16px] hover:bg-[#e55a2c] transition duration-300 cursor-pointer">Donate Now</span>
                     </button>
 
@@ -20,6 +23,7 @@ export default function Header() {
                 </div>
 
             </div>
+            {isOpen && <DonateForm onClose={() => setIsOpen(false)} />}
         </header>
         </>
     );

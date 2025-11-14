@@ -6,7 +6,7 @@ import WelcomeBg from "../../assets/images/welcome-bg.svg"
 
 export default function AboutGetInvolved() {
     return ( 
-        <div className="w-full h-200">
+        <div className="w-full lg:h-150 md:h-250 h-250">
             
         <section className="flex flex-col lg:flex-row mx-4 lg:mx-46 lg:px-0 my-20 md:px-0 gap-10 relative z-100 justify-center items-center">
             <div className="flex flex-col gap-4 justify-center items-start lg:w-1/2 md:w-full md:px-10">

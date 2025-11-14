@@ -89,18 +89,20 @@ export default function Navbar() {
 
           {/* Right: actions (desktop) */}
           <div className="hidden md:flex items-center gap-3">
-            <button
-              className="bg-[#BB7E1C] px-4 py-2 text-white font-montserrat font-medium text-[16px] hover:opacity-90 transition"
-            >
-              Contact Us
-            </button>
-            <button
+            <a href="/contact-us">
+              <button
+                className="bg-[#BB7E1C] px-4 py-2 text-white font-montserrat font-medium text-[16px] hover:opacity-90 transition cursor-pointer"
+              >
+                Contact Us
+              </button>
+            </a>
+            {/* <button
               className="flex items-center justify-center bg-transparent border border-white/70 rounded-md px-3 py-2 text-white hover:bg-white/10 transition"
               aria-label="Search"
             >
               <img src={SearchIcon} alt="" className="h-5 w-5" />
               <span className="sr-only">Open search</span>
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile: hamburger */}
@@ -149,16 +151,18 @@ export default function Navbar() {
     </ul>
 
     <div className="mt-4 flex items-center gap-3">
-      <button className="flex-1 bg-[#BB7E1C] px-4 py-2 text-white font-montserrat font-medium text-[16px] rounded-md hover:opacity-90 transition">
-        Contact Us
-      </button>
-      <button
+      <a href="/contact-us">
+        <button className="flex-1 bg-[#BB7E1C] px-4 py-2 text-white font-montserrat font-medium text-[16px] rounded-md hover:opacity-90 transition cursor-pointer">
+          Contact Us
+        </button>
+      </a>
+      {/* <button
         className="flex items-center justify-center bg-transparent border border-white/70 rounded-md px-3 py-2 text-white hover:bg-white/10 transition"
         aria-label="Search"
       >
         <img src={SearchIcon} alt="" className="h-5 w-5" />
         <span className="sr-only">Open search</span>
-      </button>
+      </button> */}
     </div>
   </div>
 </div>
