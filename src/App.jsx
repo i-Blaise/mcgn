@@ -9,6 +9,8 @@ import ScrollUpButton from './components/ScrollUpButton.jsx'
 import About from './pages/About.jsx'
 import GetInvolved from './pages/GetInvolved.jsx'
 import ContactUs from './pages/ContactUs.jsx'
+import Gallery from './pages/Gallery.jsx'
+import GalleryOpen from './pages/GalleryOpen.jsx'
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/get-involved" element={<GetInvolved />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/gallery-open/:id" element={<GalleryOpen />} />
       </Routes>
     </Router>
     </>

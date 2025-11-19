@@ -83,8 +83,8 @@ export default function Navbar() {
             <li><a href="/" className="hover:underline underline-offset-4">Home</a></li>
             <li><a href="/about" className="hover:underline underline-offset-4">About</a></li>
             <li><a href="/get-involved" className="hover:underline underline-offset-4">Get Involved</a></li>
-            <li><a href="#" className="hover:underline underline-offset-4">News</a></li>
-            <li><a href="#" className="hover:underline underline-offset-4">Resources</a></li>
+            <li><a href="/gallery" className="hover:underline underline-offset-4">Gallery</a></li>
+            <li><a href="#" className="hover:underline underline-offset-4">News/Resources</a></li>
           </ul>
 
           {/* Right: actions (desktop) */}
@@ -146,8 +146,8 @@ export default function Navbar() {
       <li><a href="/" className="block rounded-md px-3 py-2 hover:bg-white/10">Home</a></li>
       <li><a href="/about" className="block rounded-md px-3 py-2 hover:bg-white/10">About</a></li>
       <li><a href="/get-involved" className="block rounded-md px-3 py-2 hover:bg-white/10">Get Involved</a></li>
-      <li><a href="#" className="block rounded-md px-3 py-2 hover:bg-white/10">News</a></li>
-      <li><a href="#" className="block rounded-md px-3 py-2 hover:bg-white/10">Resources</a></li>
+      <li><a href="/gallery" className="block rounded-md px-3 py-2 hover:bg-white/10">Gallery</a></li>
+      <li><a href="#" className="block rounded-md px-3 py-2 hover:bg-white/10">News/Resources</a></li>
     </ul>
 
     <div className="mt-4 flex items-center gap-3">
