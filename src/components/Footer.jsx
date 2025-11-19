@@ -26,16 +26,16 @@ export default function Footer() {
                 <h4 className="font-semibold text-[18px] capitalize">Quick Links</h4>
                 <ul className="gap-2 flex flex-col text-[#AFAFAF]">
                 <li className="font-montserrat font-normal text-[16px] hover:text-white">
-                    <a href="">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li className="font-montserrat font-normal text-[16px] hover:text-white">
-                    <a href="">About Us</a>
+                    <a href="/about">About Us</a>
                 </li>
                 <li className="font-montserrat font-normal text-[16px] hover:text-white">
-                    <a href="">Projects</a>
+                    <a href="/get-involved">Get Involved</a>
                 </li>
                 <li className="font-montserrat font-normal text-[16px] hover:text-white">
-                    <a href="">News & Media</a>
+                    <a href="/gallery">Gallery</a>
                 </li>
                 </ul>
             </div>
@@ -45,10 +45,10 @@ export default function Footer() {
                 <h4 className="font-semibold text-[18px] capitalize">Get in Touch</h4>
                 <ul className="gap-2 flex flex-col text-[#AFAFAF]">
                 <li className="font-montserrat font-normal text-[16px] hover:text-white">
-                    <a href="">Contact us</a>
+                    <a href="/contact-us">Contact us</a>
                 </li>
                 <li className="font-montserrat font-normal text-[16px] hover:text-white">
-                    <a href="">Get Involved</a>
+                    <a href="/get-involved">Get Involved</a>
                 </li>
                 </ul>
             </div>

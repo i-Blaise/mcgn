@@ -8,7 +8,7 @@ export default function OurStory() {
             className='relative top-0 left-0 pointer-events-none select-none h-[800px] w-auto'
             />
             <section className='flex flex-col lg:flex-row mx-4 lg:mx-46 lg:px-0 my-20 md:px-0 gap-10 relative z-100 mt-[-560px] justify-center items-center'>
-                <div className='lg:w-1/2 md:w-full md:px-10'>
+                <div className='lg:w-1/2 md:w-full md:px-2'>
                     <img src={OurStoryImage} alt="Our Story Image of the group" 
                     className='lg:h-[36rem] w-fit object-cover' />
                 </div>

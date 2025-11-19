@@ -1,6 +1,10 @@
 import TeamCard from "./Cards/TeamCard";
 import FrankImg from "../assets/team/frank.jpg";
 import Blaise from "../assets/team/blaise.jpg";
+import Jennifer from "../assets/team/jennifer.jpg";
+import Jennifer1 from "../assets/team/jennifer-1.jpg";
+import Emmanuella from "../assets/team/emmanuella.jpg";
+import Ann from "../assets/team/ann.jpg";
 
 export default function OurTeam() {
     return (
@@ -37,15 +41,24 @@ export default function OurTeam() {
                     }}
                 />
                 <TeamCard 
-                    TeamImage={Blaise}
-                    Name="Blaise S. Mennia"
-                    Position="Co-Founder"
-                    socialLinks={{
-                        facebook: "https://facebook.com/frank",
-                        instagram: "https://instagram.com/frank",
-                        twitter: "https://instagram.com/frank",
-                        linkedin: "https://linkedin.com/in/frank",
-                    }}
+                    TeamImage={Jennifer}
+                    Name="Jennifer Delalorm Governor"
+                    Position="Secretary"
+                />
+                <TeamCard 
+                    TeamImage={Jennifer1}
+                    Name="Jennifer Atsrim"
+                    // Position="Secretary"
+                />
+                <TeamCard 
+                    TeamImage={Emmanuella}
+                    Name="Emmanuella Owusu"
+                    // Position="Secretary"
+                    />
+                <TeamCard 
+                    TeamImage={Ann}
+                    Name="Ann Marie"
+                    // Position="Secretary"
                 />
             </div>
         </section>
