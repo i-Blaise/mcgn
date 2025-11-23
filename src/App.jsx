@@ -11,6 +11,7 @@ import GetInvolved from './pages/GetInvolved.jsx'
 import ContactUs from './pages/ContactUs.jsx'
 import Gallery from './pages/Gallery.jsx'
 import GalleryOpen from './pages/GalleryOpen.jsx'
+import NewsNBlogs from './pages/NewsNBlogs.jsx'
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/gallery-open/:id" element={<GalleryOpen />} />
+        <Route path="/news-blogs" element={<NewsNBlogs />} />
       </Routes>
     </Router>
     </>

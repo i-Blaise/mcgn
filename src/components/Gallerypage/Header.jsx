@@ -6,7 +6,7 @@ export default function Header() {
             <div className="flex flex-col gap-4 justify-center items-center text-white">
                 <h1 className="text-[42px] font-bold capitalize">Moments that matter</h1>
                 <a href="/" className="flex items-center gap-2 hover:underline cursor-pointer">
-                    <p className="text-[16px] font-semibold ">Home / Contact Us</p>
+                    <p className="text-[16px] font-semibold ">Home / Gallery</p>
                 </a>
             </div>
             <img src={HeaderPattern} alt="" 
